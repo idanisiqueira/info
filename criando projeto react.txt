@@ -1,0 +1,28 @@
+> abrir o powershell;
+> verificar em qual pasta está (digite ls para aparecer as pastas e acessá-las);
+> ao encontrar a pasta que deseja criar o projeto, acesse a pasta (digite cd *nome da pasta*);
+> crie o projeto (digite npx create-react-app *nome do projeto*);
+> dê enter e aguarde o projeto ser criado automaticamente;
+> abra o projeto no vs code (digite code *nome do projeto*);
+> abra o terminal no vs code e faça rodar o projeto (digite npm start);
+> pode-se deletar os arquivos da pasta public deixando apenas favicon.ico e index.html;
+> pode-se deletar também os comentários que vieram no arquivo index.html e a linha que chama o arquivo manifest;
+> na pasta src (search) pode-se deletar os demais arquivos como logo.svg, reportWebVitals.js, setupTests.js, App.test.js, index.css, App.css, deixando apenas App.js e index.js;
+> deletar tudo que tem dentro do App.js para ser criado do zero;
+> importar o react dentro do App.js (digite import React from 'react');
+> criar uma função chamada App dentro do App.js;
+> sempre lembrar de expotar a função ao final do código (digite export default App);
+> salvar tudo;
+> pode-se atualizar a página onde está rodando o projeto pra ver se todas as modificações foram bem sucedidas;
+> ao usar código HTML dentro do App. js, sempre retornar os códigos (digite return (*código HTML*));
+> para usar código javascript dentro do HTML, utilize as chaves {};
+> pare o projeto ao instalar qualquer biblioteca (ctrl + c);
+> instalar o styled components no projeto para poder usar javascript com css (npm i styled-components);
+> volte a rodar o servidor após a instalação de qualquer biblioteca (npm start);
+> criar o arquivo na pasta src de styles.js;
+> importar o arquivo styled components no arquivo styles.js (digite import styled from 'styled components');
+> ao criar os consts dentro do styles.js, lembre de sempre exportar para que seja usado no App.js (exemplo: export const Container = styled.div ` background-color: red; `);
+> criar arquivo globalStyle.js dentro da pasta src, ele é para ser usado para aplicar estilos globais/gerais na aplicação;
+> importar createGlobalStyle dentro do globalStyle.js (digite import { createGlobalStyle } from "styled-components";
+> exportar o creatGlobalStyle (digite export default createGlobalStyle);
+>

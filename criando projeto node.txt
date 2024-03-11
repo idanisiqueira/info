@@ -1,0 +1,15 @@
+> abrir o powershell;
+> verificar em qual pasta está (digite ls para aparecer as pastas e acessá-las);
+> crie a pasta para o projeto (digite mkdir *nome da pasta*);
+> acesse a pasta do projeto (digite cd *nome da pasta*);
+> crie o projeto (digite npm init -y);
+> abra o projeto no vs code (digite code .);
+> abra o terminal no vs code e instale o express no projeto (digite npm i express);
+> crie o arquivo .gitignore e coloque o node_modules nele, para que assim estes arquivos não subam para o github quando for fazer o deploy do projeto;
+> crie o arquivo index.js no projeto;
+> importe o express no arquivo index (digite const express = require('express'));
+> rode a aplicação no terminal (digite node index.js);
+> instale o nodemon no terminal em ambiente de desenvolvimento, para assim não ter que ficar parando sua aplicação toda vez que alterá-la (digite npm i nodemon -D);
+> vá até o arquivo package.json, na parte de scripts insira "dev": "nodemon", para assim sua aplicação rodar o nodemon sempre que for dado o comando no terminal (não esqueça de colocar a vírgula na linha acima antes de inserir o que foi indicado;
+> no terminal execute npm run dev;
+> agora poderá codar e salvar sem precisar parar de rodar sua aplicação;

@@ -1,0 +1,10 @@
+> acesse o seu github, vá para a home no lado esquerdo superior;
+> clique em new, na parte de repositórios;
+> preencha o nome do repositório;
+> clique em criar repositório na parte final da página;
+> abra o vs code com seu projeto aberto dentro dele, de preferência a pasta do projeto;
+> digite git init (para inicializar o repositório);
+> git add . (para adicionar todos os arquivos para a área de stage);
+> git commit -m"mensagem do commit";
+> git remote add origin *link do projeto que foi criado lá no github*;
+> git push --set-upstream origin master (só será necessário na primeira vez que for subir o projeto);

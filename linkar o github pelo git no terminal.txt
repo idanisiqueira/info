@@ -1,0 +1,16 @@
+PRIMEIRA PARTE
+
+> abrir o terminal;
+> alterar na setinha para gitbash;
+> digite git config --global user.email *digite o seu email*;
+> git config --global user.name *digitar o username que está no github*;
+> git config --list (para saber se deu certo)
+> veja se no final do texto tem: user.email e user.name no seu nome;
+
+SEGUNDA PARTE
+
+> clicar no ícone de boneco/perfil no lado esquerdo inferior;
+> clique em Sign in to Sync Settings;
+> sign in with github;
+> vai abrir o site do Github em uma outra janela;
+> logar novamente no github pra confirmar;
